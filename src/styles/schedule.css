@@ -13,13 +13,17 @@
 .schedule__time {
   width: 80px;
   text-align: center;
+  align-self: center;
 }
 
 .schedule__task {
   flex: 1;
+  padding: 0.4em 1.25em;
+  border-radius: 20px;
 }
 
 .schedule__indicator {
   width: 40px;
   text-align: center;
+  align-self: center;
 }

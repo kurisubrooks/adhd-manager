@@ -28,6 +28,7 @@ const ScheduleItem = ({ item, isActive }) => {
       style={{ backgroundColor: colour }}
     >
       {item.label}
+      {item.text !== "" && <><br/>{item.text}</>}
     </div>
     <div
       className="schedule__indicator"
