@@ -1,12 +1,12 @@
 import './styles/app.css';
-import { Schedule } from './Schedule';
+import { Schedule } from './components/Schedule';
 
-import schedule from './schedule.json';
+import schedule from './data/schedule.json';
 
-function App() {
+const App = () => {
   return (
     <div className="app_container">
-      <Schedule schedule={schedule.MON.schedule} />
+      <Schedule schedule={schedule.THURS.schedule} />
     </div>
   );
 }

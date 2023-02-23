@@ -1,4 +1,4 @@
-import "./styles/schedule.css";
+import "../styles/schedule.css";
 
 const ACTIVE_COLOUR = '#FFF0BC';
 const INACTIVE_COLOUR = '#F7E4A0';
@@ -25,10 +25,12 @@ const ScheduleItem = ({ item, isActive }) => {
     </div>
     <div
       className="schedule__task"
-      style={{ backgroundColor: colour }}
+      style={{ backgroundColor: colour, fontWeight: isActive ? 600 : 500 }}
     >
       {item.label}
-      {item.text !== "" && <><br/>{item.text}</>}
+      {item.text !== "" && <div className="schedule__task__subtitle">
+        ({item.text})
+      </div>}
     </div>
     <div
       className="schedule__indicator"

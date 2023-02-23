@@ -1,5 +1,5 @@
 {
-  "MON": {
+  "THURS": {
     "wakeTime": "10:00",
     "timeZone": "UTC+10",
     "schedule": [
@@ -8,7 +8,7 @@
       { "period": "12:00", "label": "Brush Teeth", "text": "" },
       { "period": "15:00", "label": "Lunch", "text": "" },
       { "period": "16:00", "label": "Take Meds", "text": "Dexamphetamine" },
-      { "period": "17:00", "label": "__WEEKLY TASK__", "text": "" },
+      { "period": "17:00", "label": "Take Bins Out", "text": "" },
       { "period": "21:00", "label": "Dinner", "text": "" },
       { "period": "21:30", "label": "Take Meds", "text": "Cymbalta" },
       { "period": "23:30", "label": "Shower", "text": "" },

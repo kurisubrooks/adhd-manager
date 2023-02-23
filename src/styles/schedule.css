@@ -12,6 +12,8 @@
 
 .schedule__time {
   width: 80px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.1em;
   text-align: center;
   align-self: center;
 }
@@ -20,6 +22,10 @@
   flex: 1;
   padding: 0.4em 1.25em;
   border-radius: 20px;
+}
+
+.schedule__task__subtitle {
+  font-size: 0.85em;
 }
 
 .schedule__indicator {
