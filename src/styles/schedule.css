@@ -8,14 +8,22 @@
 .schedule_item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.schedule__day {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 2.5em;
+  font-family: 'Barlow', sans-serif;
 }
 
 .schedule__time {
   width: 80px;
+  padding: 0 1em;
   font-family: 'Barlow', sans-serif;
   font-size: 1.1em;
   text-align: center;
-  align-self: center;
 }
 
 .schedule__task {
@@ -31,5 +39,6 @@
 .schedule__indicator {
   width: 40px;
   text-align: center;
-  align-self: center;
+  padding-top: 4.5px;
+  padding-right: 3px;
 }
