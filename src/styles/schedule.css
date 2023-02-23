@@ -2,17 +2,17 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  overflow-y: scroll;
 }
 
 .schedule_item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  min-height: 40px;
 }
 
 .schedule__day {
-  margin: 0;
+  margin: 0.4em 0;
   padding-left: 1rem;
   font-size: 2.5em;
   font-family: 'Barlow', sans-serif;
@@ -27,6 +27,8 @@
 }
 
 .schedule__task {
+  display: flex;
+  justify-content: space-between;
   flex: 1;
   padding: 0.4em 1.25em;
   border-radius: 20px;
@@ -34,6 +36,7 @@
 
 .schedule__task__subtitle {
   font-size: 0.85em;
+  align-self: center;
 }
 
 .schedule__indicator {

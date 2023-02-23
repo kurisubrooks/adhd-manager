@@ -1,19 +1,21 @@
 {
   "THURS": {
     "wakeTime": "10:00",
+    "bedTime": "24:30",
     "timeZone": "UTC+10",
     "schedule": [
-      { "period": "10:00", "label": "Breakfast", "text": "" },
-      { "period": "11:00", "label": "Take Meds", "text": "Dexamphetamine" },
-      { "period": "12:00", "label": "Brush Teeth", "text": "" },
-      { "period": "15:00", "label": "Lunch", "text": "" },
-      { "period": "16:00", "label": "Take Meds", "text": "Dexamphetamine" },
-      { "period": "17:00", "label": "Take Bins Out", "text": "" },
-      { "period": "21:00", "label": "Dinner", "text": "" },
-      { "period": "21:30", "label": "Take Meds", "text": "Cymbalta" },
-      { "period": "23:30", "label": "Shower", "text": "" },
-      { "period": "24:00", "label": "Brush Teeth", "text": "" },
-      { "period": "24:30", "label": "Bed", "text": "" }
+      { "period": "10:00", "title": "Breakfast"},
+      { "period": "11:00", "title": "Take Meds", "subtitle": "Dexamphetamine" },
+      { "period": "12:00", "title": "Brush Teeth"},
+      { "period": "15:00", "title": "Lunch"},
+      { "period": "16:00", "title": "Take Meds", "subtitle": "Dexamphetamine" },
+      { "period": "17:00", "title": "Take Bins Out"},
+      { "period": "19:00"},
+      { "period": "21:00", "title": "Dinner"},
+      { "period": "21:30", "title": "Take Meds", "subtitle": "Cymbalta" },
+      { "period": "23:30", "title": "Shower"},
+      { "period": "24:00", "title": "Brush Teeth"},
+      { "period": "24:30", "title": "Bedtime"}
     ]
   }
 }
